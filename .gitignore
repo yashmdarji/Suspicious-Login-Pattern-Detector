@@ -1,0 +1,13 @@
+# Written to ignore dataset folder having file of size in GBs
+data/
+
+# Ignore all .zip & .csv files
+*.zip
+*.csv
+
+# Ignore Python's internal temporary files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/

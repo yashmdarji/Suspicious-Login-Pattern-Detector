@@ -2,8 +2,8 @@ import joblib
 import pandas as pd
 
 def run_detector():
-    model = joblib.load('account_takeover_detector.joblib')
-    required_features = joblib.load('model_features.joblib')
+    model = joblib.load('models/account_takeover_detector.joblib')
+    required_features = joblib.load('models/model_features.joblib')
 
     sample_login_data = [[1,1,1,1,1,0]]
     input_df = pd.DataFrame(sample_login_data, columns=required_features)

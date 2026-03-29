@@ -1,13 +1,10 @@
-# Written to ignore dataset folder having file of size in GBs
-data/
+# Ignore the specific 9GB raw dataset
+data/rba-dataset.csv
 
-# Ignore all .zip & .csv files
+# Ignore all zip files
 *.zip
-*.csv
 
-# Ignore Python's internal temporary files
+# Ignore Python and Jupyter junk
 __pycache__/
 *.py[cod]
-
-# Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
